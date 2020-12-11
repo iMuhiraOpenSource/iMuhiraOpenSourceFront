@@ -9,6 +9,17 @@
     "header.more.information":"More information",
     "aboutUs.title.1":"About Us",
 
+    "header.about.us": "Know us",
+    "about.us.page.title": "Discover Im'OS",
+    "about.us.page.subtitle": "At Im'OS, we believe in the power of Open Source to accelerate digital transformation in Burundi",
+    "about.us.introduction": "MuhiraOpenSource is an initiative born from the reunion of two Burundian IT professionals and former classmate (Didier Kekenwa & Fiacre Nsanzabandi). One living in Burundi and the other evolving in the West, they are stimulated by the idea of ​​creating an open source collaboration for Burundi. ",
+    "about.us.introduction.1": "The iMuhiraOpenSource project was born from an ambition of its creators to mobilize the creative power of Burundian software professionals around open source projects with",
+    "about.us.introduction.2": "iMuhiraOpenSource is meant as:",
+    "about.us.introduction.3": "A catalyst for effective digital transformation in Burundi",
+    "about.us.introduction.4": "A Burundian platform for the collaboration of IT professionals on open source projects;",
+    "about.us.introduction.5": "A springboard for the effective integration of juniors into the professional environment",
+    "about.us.introduction.6": "Its primary objective is to offer / support open source applications that would meet the Burundian needs of the various actors (public administrations, private institutions, population, diaspora, etc.)",
+
     "footer.rights":"Property of",
 
     "pending.development":"Pending development ..",

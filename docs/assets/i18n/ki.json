@@ -26,6 +26,20 @@
     "more.information.introduction.7.2":"Nous gardons nos applications et continuons à les améliorer",
     "more.information.introduction.7.3":"Lors de son départ, un apporteur d’idée laissera l’application à la communauté",
     "more.information.introduction.7.4":"Un apporteur d’idée peut partir et continuer à faire des améliorations sur sa version d’application",
+<<<<<<< HEAD
+
+
+
+    "header.about.us": "Tumenye",
+    "about.us.page.title": "Menya Im'OS",
+    "about.us.page.subtitle": "Kuri Im'OS, twizera imbaraga za Open Source yo kwihutisha ihinduka rya digitale mu Burundi",
+    "about.us.introduction":"iMuhiraOpenSource nigikorwa cyavutse muguhuza abanyamwuga babiri bo mu Burundi hamwe nabahoze bigana (Didier Kekenwa & Fiacre Nsanzabandi). Umwe uba mu Burundi undi agenda atera imbere mu Burengerazuba, bashishikajwe n'igitekerezo cyo gushyiraho ubufatanye bweruye ku Burundi.",
+    "about.us.introduction.1":"Umushinga wa iMuhiraOpenSource wavutse mubyifuzo byabayiremye kugirango bakangurire imbaraga zo guhanga abanyamwuga ba software bo muburundi hafi yimishinga ifunguye.",
+    "about.us.introduction.2": "iMuhiraOpenSource is meant as",
+    "about.us.introduction.3": ​​"Umusemburo wo guhindura imibare myiza mu Burundi",
+    "about.us.introduction.4": "Ikibaho cyo guhuza neza abangavu mubidukikije",
+=======
     "more.information.contact": "Si vous avez besoin de plus d'information, n'hésitez pas à nous contacter:"
 
+>>>>>>> 43a83293ef4437875e6962bd225f183b4aaede50
   }
