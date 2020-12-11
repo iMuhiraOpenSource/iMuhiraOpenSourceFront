@@ -1,5 +1,5 @@
 {
-    "header.about.us":"About us",
+    
 
 
     "home.title.1":"A collaboration platform for the promotion of free software and effective digital transformation.",
@@ -9,7 +9,7 @@
     "header.more.information":"More information",
     "aboutUs.title.1":"About Us",
 
-    "header.about.us": "Know us",
+    "header.about.us": "About us",
     "about.us.page.title": "Discover Im'OS",
     "about.us.page.subtitle": "At Im'OS, we believe in the power of Open Source to accelerate digital transformation in Burundi",
     "about.us.introduction": "MuhiraOpenSource is an initiative born from the reunion of two Burundian IT professionals and former classmate (Didier Kekenwa & Fiacre Nsanzabandi). One living in Burundi and the other evolving in the West, they are stimulated by the idea of ​​creating an open source collaboration for Burundi. ",
@@ -19,6 +19,18 @@
     "about.us.introduction.4": "A Burundian platform for the collaboration of IT professionals on open source projects;",
     "about.us.introduction.5": "A springboard for the effective integration of juniors into the professional environment",
     "about.us.introduction.6": "Its primary objective is to offer / support open source applications that would meet the Burundian needs of the various actors (public administrations, private institutions, population, diaspora, etc.)",
+
+
+    "header.join.us": "Join us",
+    "join.us.page.title": "Get involved",
+    "join.us.page.subtitle": "Join our community",
+    "join.us.introduction": "Do you have a full-time job and would like to contribute to open source in your spare time?",
+    "join.us.introduction.1": "Do you think of open source as a hobby or a creative escape without feeling financially obligated to work on projects?",
+    "join.us.introduction.2": "Looking to build your reputation or portfolio, or learn a new skill?",
+    "join.us.introduction.3": "The Im'Os community is opened to every one:",
+    "join.us.introduction.4": "Burundian IT professionals from all IT fields",
+    "join.us.introduction.5": "Computer science students looking for opportunities and experiences",
+    "join.us.introduction.6": "Project leaders",
 
     "footer.rights":"Property of",
 
