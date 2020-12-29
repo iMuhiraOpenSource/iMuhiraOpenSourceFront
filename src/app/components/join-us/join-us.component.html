@@ -25,4 +25,42 @@
     <li> {{ 'join.us.introduction.5' | translate}}</li>
     <li> {{ 'join.us.introduction.6' | translate}}</li>
   </ul>
+  <hr>
+
+  <div class="loginForm mx-auto">
+    <form name="form" (ngSubmit)="f.form.valid && submit()" #f="ngForm" novalidate>
+      <div class="form-group mb-3">
+        <label for="mailAdress" class="form-label">Email address *</label>
+        <input type="email" class="form-control" id="mailAdress" name="mailAdress" placeholder="name@example.com"
+          [(ngModel)]="mailAdress" required email #mailAdressField="ngModel">
+      </div>
+      <div *ngIf="(f.submitted && mailAdressField.invalid) || (mailAdressField.invalid && (mailAdressField.dirty || mailAdressField.touched))" class="alert alert-danger">
+        <div *ngIf="mailAdressField.errors.required">
+          Email adress is required.
+        </div>
+        <div *ngIf="mailAdressField.errors.email">
+          Bad email adress format
+        </div>
+      </div>
+      <div class="form-group mb-3">
+        <label for="name" class="form-label">Name *</label>
+        <input class="form-control" id="name" name="name" placeholder="Name" [(ngModel)]="name" required
+          #nameField="ngModel">
+      </div>
+      <div *ngIf="(f.submitted && nameField.invalid) || (nameField.invalid && (nameField.dirty || nameField.touched))" class="alert alert-danger">
+        <div *ngIf="nameField.errors.required">
+          Name is required.
+        </div>
+      </div>
+      <div class="form-group mb-3">
+        <label for="complemantaryInformation" class="form-label">Complementary information</label>
+        <textarea class="form-control" id="complemantaryInformation" name="complemantaryInformation" rows="3"
+          [(ngModel)]="complementaryInformation" #complementaryInformationField="ngModel"></textarea>
+      </div>
+      <div class="form-group mb-3">
+        <button type="submit" class="buttonLoginForm btn btn-primary">Submit</button>
+      </div>
+    </form>
+  </div>
+
 </div>
