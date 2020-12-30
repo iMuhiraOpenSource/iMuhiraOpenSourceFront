@@ -30,35 +30,35 @@
   <div class="loginForm mx-auto">
     <form name="form" (ngSubmit)="f.form.valid && submit()" #f="ngForm" novalidate>
       <div class="form-group mb-3">
-        <label for="mailAdress" class="form-label">Email address *</label>
+        <label for="mailAdress" class="form-label">{{ 'join.us.email.label' | translate }}</label>
         <input type="email" class="form-control" id="mailAdress" name="mailAdress" placeholder="name@example.com"
           [(ngModel)]="mailAdress" required email #mailAdressField="ngModel">
       </div>
       <div *ngIf="(f.submitted && mailAdressField.invalid) || (mailAdressField.invalid && (mailAdressField.dirty || mailAdressField.touched))" class="alert alert-danger">
         <div *ngIf="mailAdressField.errors.required">
-          Email adress is required.
+          {{ 'join.us.email.required' | translate }}
         </div>
         <div *ngIf="mailAdressField.errors.email">
-          Bad email adress format
+          {{ 'join.us.email.bad.format' | translate }}
         </div>
       </div>
       <div class="form-group mb-3">
-        <label for="name" class="form-label">Name *</label>
-        <input class="form-control" id="name" name="name" placeholder="Name" [(ngModel)]="name" required
+        <label for="name" class="form-label">{{ 'join.us.name.label' | translate }}</label>
+        <input class="form-control" id="name" name="name" placeholder="{{ 'join.us.name.placeholder' | translate }}" [(ngModel)]="name" required
           #nameField="ngModel">
       </div>
       <div *ngIf="(f.submitted && nameField.invalid) || (nameField.invalid && (nameField.dirty || nameField.touched))" class="alert alert-danger">
         <div *ngIf="nameField.errors.required">
-          Name is required.
+          {{ 'join.us.name.required' | translate }}
         </div>
       </div>
       <div class="form-group mb-3">
-        <label for="complemantaryInformation" class="form-label">Complementary information</label>
+        <label for="complemantaryInformation" class="form-label">{{ 'join.us.complementary.information' | translate }}</label>
         <textarea class="form-control" id="complemantaryInformation" name="complemantaryInformation" rows="3"
           [(ngModel)]="complementaryInformation" #complementaryInformationField="ngModel"></textarea>
       </div>
       <div class="form-group mb-3">
-        <button type="submit" class="buttonLoginForm btn btn-primary">Submit</button>
+        <button type="submit" class="buttonLoginForm btn btn-primary">{{ 'join.us.submit.button' | translate }}</button>
       </div>
     </form>
   </div>
