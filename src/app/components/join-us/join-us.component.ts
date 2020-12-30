@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
+import {TranslateService} from '@ngx-translate/core';
 
 @Component({
   selector: 'app-join-us',
@@ -12,7 +13,7 @@ export class JoinUsComponent implements OnInit {
   name = '';
   complementaryInformation = '';
 
-  constructor(private router: Router) { }
+  constructor(private router: Router, private translateService: TranslateService) { }
 
   ngOnInit() {
   }
@@ -26,7 +27,7 @@ export class JoinUsComponent implements OnInit {
     console.log("Mail adress = " + this.mailAdress);
     console.log("Name = " + this.name);
     console.log("Complementary information = " + this.complementaryInformation);
-    alert("Thank you for your interest in our activity. We will come back to you very soon.");
+    alert(this.translateService.instant('join.us.submission.alert'));
     this.router.navigate(['home']);
   }
 
